@@ -1,0 +1,20 @@
+{
+  "name": "create-blueprint-app",
+  "version": "0.1.0",
+  "description": "Scaffold a new project following the Master Development Blueprint",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-blueprint-app": "./bin/create-blueprint-app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keikworld/master-development-blueprint.git"
+  },
+  "keywords": [
+    "scaffold", "blueprint", "template", "project-generator"
+  ]
+}

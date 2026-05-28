@@ -1,0 +1,21 @@
+{
+  "name": "example-express-api",
+  "version": "0.1.0",
+  "description": "Blueprint example: Express API following universal rules and patterns",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "mocha tests/**/*.test.js --exit --timeout 5000 --node-option=experimental-vm-modules"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pino": "^9.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^11.0.0",
+    "supertest": "^7.0.0"
+  }
+}
