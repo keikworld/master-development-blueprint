@@ -78,6 +78,7 @@ The LLM runs all 8 phases: Discovery -> Policies -> Patterns -> Decisions -> Ris
 | **Share lessons** | Use the "Share a Lesson" issue template |
 | **Show your project** | `COMMUNITY_PROJECTS.md` — open a PR to add yours |
 | **Contribute** | `CONTRIBUTING.md` — patterns, presets, examples, fixes |
+| **Code of Conduct** | `CODE_OF_CONDUCT.md` — ethical use, do-no-harm, inclusive community |
 | **Ask questions** | [GitHub Discussions](https://github.com/keikworld/master-development-blueprint/discussions) (coming soon) |
 
 ## Origin

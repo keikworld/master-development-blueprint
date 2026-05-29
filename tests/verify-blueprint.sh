@@ -113,6 +113,31 @@ else
 fi
 
 echo ""
+echo "--- 7. ETHICAL & COMMUNITY ---"
+
+PARENT="$(dirname "$BLUEPRINT_DIR")"
+if [ -f "$PARENT/CODE_OF_CONDUCT.md" ]; then
+  OK "CODE_OF_CONDUCT.md exists"
+  for kw in "Ethical Use" "Contributor Covenant" "Prohibited Use"; do
+    if grep -q "$kw" "$PARENT/CODE_OF_CONDUCT.md" 2>/dev/null; then OK "  CoC contains: $kw"; else MAYBE "  CoC contains: $kw"; fi
+  done
+else
+  NO "CODE_OF_CONDUCT.md (missing)"
+fi
+
+CFILE="$PARENT/CONTRIBUTING.md"
+if [ -f "$CFILE" ]; then
+  OK "CONTRIBUTING.md exists"
+  for kw in "Ethical Use" "Acceptable Use" "Unacceptable Use"; do
+    if grep -q "$kw" "$CFILE" 2>/dev/null; then OK "  CONTRIBUTING contains: $kw"; else MAYBE "  CONTRIBUTING contains: $kw"; fi
+  done
+else
+  NO "CONTRIBUTING.md (missing)"
+fi
+
+if grep -q '| \*\*Teach\*\*' "$MAIN" 2>/dev/null; then OK "LLM: Teach role"; else MAYBE "LLM: Teach role"; fi
+
+echo ""
 echo "========================================================================"
 echo " VERIFICATION COMPLETE"
 echo "========================================================================"

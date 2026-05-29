@@ -58,11 +58,32 @@ Co-authored-by: Your Name <email>
 
 Types: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `example`
 
+## Ethical Use: Do No Harm
+
+This blueprint teaches secure software engineering patterns. **The same knowledge that builds secure applications can be misused.** We trust you to use it responsibly.
+
+### ✅ Acceptable Use
+- Building commercial or open-source applications that solve real problems
+- Learning how to write secure, maintainable software
+- Teaching others software engineering best practices
+- Conducting authorized security research and penetration testing
+
+### ❌ Unacceptable Use
+- Building malware, ransomware, or any software designed to harm
+- Creating surveillance tools without explicit consent
+- Developing discriminatory or harmful systems
+- Unauthorized access to systems or data
+- Any activity that violates applicable laws
+
+### Reporting Concerns
+
+If you see a contribution that violates these principles — malicious patterns, intentionally insecure code, or harmful use cases — open an issue to flag it. We'll address it promptly.
+
 ## Code of Conduct
 
-Be respectful. This project is for learners and experts alike. No condescension, no gatekeeping.
+See `CODE_OF_CONDUCT.md` for the full code of conduct.
 
-**Core principle:** Every contributor was a beginner once. Write for the person who will read this a year from now at 2am, frustrated, trying to figure out why their code doesn't work.
+**Core principle:** Every contributor was a beginner once. Write for the person who will read this at 2 AM, frustrated, trying to figure out why their code doesn't work. No condescension, no gatekeeping.
 
 ## Questions?
 
